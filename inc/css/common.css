@@ -1,0 +1,36 @@
+/* Global CSS */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo-img {
+    background-color: slateblue;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+.logo-img:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border: 1px solid slateblue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: inset 0px 0px 5px 0px slateblue;
+}
+
+/* Hearder Area Start */
+
+header {
+    background-color: #e9e9e9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
